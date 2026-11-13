@@ -38,12 +38,14 @@ const ABOUT = [
   ["Focus", "Full-stack + AI engineering"],
   ["Builds", "AI products for PH & SEA businesses"],
   null,
-  ["Languages.Code", "TypeScript, Python, Swift, SQL"],
-  ["Languages.Real", "English, Filipino"],
-  ["Stack.Web", "Next.js, React, Node.js, Tailwind"],
-  ["Stack.AI", "LLM agents, voice AI, RAG"],
-  ["Stack.Ship", "Vercel, Supabase, GitHub Actions"],
-  ["Hobbies", "Orchestral music"],
+  ["Languages", "TypeScript, Python, Swift, SQL"],
+  ["Architecture", "Event-driven, multi-tenant, edge"],
+  ["AI Systems", "Agents, RAG, evals, real-time voice"],
+  ["Data", "Postgres, Kafka, vector search"],
+  ["Platform", "Next.js, Node.js, React Native"],
+  ["Infra", "Vercel, Supabase, Railway, CI/CD"],
+  ["Practice", "Observability, SLOs, AppSec"],
+  ["Leadership", "Tech strategy, design reviews, 0→1"],
 ];
 
 const THEMES = {
