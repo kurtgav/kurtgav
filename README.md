@@ -1,42 +1,65 @@
-![MasterHead](https://user-images.githubusercontent.com/41123719/164349573-0fdfef29-1ff9-4978-b43f-a2774a0282cd.gif)
-<h1 align="center">Hi 👋, I'm Kurt Gavin</h1>
-<h3 align="center">A passionate front end developer from Philippines</h3>
-<img align="right" alt="Coding" width="400" src="https://i.pinimg.com/originals/0d/78/49/0d784930fcf326f080df2ec15baccd49.gif">
+<a href="https://kurtgavin.vercel.app">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kurtgav/kurtgav/main/assets/card-dark.svg">
+    <img alt="Kurt Gavin. CTO at Third Code Solutions Inc., full-stack and AI engineer from the Philippines." src="https://raw.githubusercontent.com/kurtgav/kurtgav/main/assets/card-light.svg" width="100%">
+  </picture>
+</a>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=kurtgav&label=Profile%20views&color=0e75b6&style=flat" alt="kurtgav" /> </p>
+<p align="center"><samp>
+  <a href="https://kurtgavin.vercel.app">portfolio</a> ·
+  <a href="https://thirdcodesolutions.com">third&nbsp;code</a> ·
+  <a href="https://www.linkedin.com/in/kurtgavin/">linkedin</a> ·
+  <a href="https://x.com/strangeyunabiii">x</a>
+</samp></p>
 
-<p align="left"> <a href="https://twitter.com/strangeyunabiii" target="blank"><img src="https://img.shields.io/twitter/follow/strangeyunabiii?logo=twitter&style=for-the-badge" alt="strangeyunabiii" /></a> </p>
+<br>
 
-- 🌱 Skilled:
-  - Data Science
-  - Web Development
-  - Cloud Security
+### <samp>selected work</samp>
 
-- 💬 Connect with me: www.linkedin.com/in/kurtgavin/
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://deal-pilot-web.vercel.app"><b>DealPilot AI</b></a><br>
+      <sub>Real-time voice AI sales engineer. Joins live B2B discovery calls, qualifies prospects, hands off CRM-ready notes.</sub><br>
+      <sub><samp>voice ai · typescript · <a href="https://github.com/kurtgav/deal-pilot">source</a></samp></sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://helix-eight-silk.vercel.app"><b>Helix</b></a><br>
+      <sub>AI operating layer for healthcare ops. Eligibility checks, pre-authorizations and denial catching for PhilHealth and PH HMOs.</sub><br>
+      <sub><samp>healthcare ai · typescript · <a href="https://github.com/kurtgav/Helix">source</a></samp></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://simula-iota.vercel.app"><b>SIMULA</b></a><br>
+      <sub>Decision rehearsal, with receipts. Pressure-test campaign messages before fieldwork in a traceable workspace.</sub><br>
+      <sub><samp>simulation · typescript</samp></sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://garage-desk-tau.vercel.app"><b>Garage Desk</b></a><br>
+      <sub>Job cards, quotes and customer approvals for independent garages. Every status change on one timeline.</sub><br>
+      <sub><samp>smb saas · typescript · <a href="https://github.com/kurtgav/garage-desk">source</a></samp></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://kurtgav.github.io/takip/"><b>TAKIP</b></a><br>
+      <sub>Cover sensitive information in photos before you share. Runs privately, on your device.</sub><br>
+      <sub><samp>privacy · javascript · <a href="https://github.com/kurtgav/takip">source</a></samp></sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://brgypulo.vercel.app"><b>Barangay Pulo</b></a><br>
+      <sub>Official site of Barangay Pulo, Cabuyao City. Services, announcements and local news for residents.</sub><br>
+      <sub><samp>civic tech · typescript</samp></sub>
+    </td>
+  </tr>
+</table>
 
-- 🖥 Check my updated website: https://kurtgav.github.io/kurtgav/
+<p align="right"><sub><samp>50+ live products at <a href="https://thirdcodesolutions.com">Third Code Solutions</a> →</samp></sub></p>
 
-- 📞 Open for Consultations and Collaborations
+<br>
 
-- 🎵 Fun fact **I love listening to Orchestra**
-
-<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
-<br><br>
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/strangeyunabiii" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="thinkaboutgav" height="30" width="40" /></a>
-<a href="https://www.facebook.com/kurtgvin" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="kurt lopez" height="30" width="40" /></a>
-<a href="https://www.behance.net/kurt gavin lopez" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/behance.svg" alt="kurt gavin lopez" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/kurtgavin" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="kurtgavin" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/profile/kurtgavinlopez" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="kurtgavin" height="30" width="40" /></a>
-</p>
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://kafka.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="kafka" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> </p>
-
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=kurtgav&show_icons=true&locale=en&layout=compact" alt="kurtgav" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=kurtgav&show_icons=true&locale=en" alt="kurtgav" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=kurtgav&" alt="kurtgav" /></p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kurtgav/kurtgav/output/snake-dark.svg">
+  <img alt="Contribution graph being eaten by a snake" src="https://raw.githubusercontent.com/kurtgav/kurtgav/output/snake-light.svg" width="100%">
+</picture>
