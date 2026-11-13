@@ -44,7 +44,7 @@ const ABOUT = [
   ["AI Systems", "Agents, RAG, evals, real-time voice"],
   ["Data", "Postgres, Kafka, vector search"],
   ["Platform", "Next.js, Node.js, React Native"],
-  ["Infra", "Vercel, Supabase, Railway, CI/CD"],
+  ["Infra", "AWS, Azure, GCP, CI/CD"],
   ["Practice", "Observability, SLOs, AppSec"],
   ["Leadership", "Tech strategy, design reviews, 0→1"],
 ];

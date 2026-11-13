@@ -26,7 +26,7 @@
   <text x="400" y="280.5" class="ln" style="animation-delay:450ms"><tspan class="k">AI Systems</tspan><tspan class="d"> ....... </tspan>Agents, RAG, evals, real-time voice</text>
   <text x="400" y="302.5" class="ln" style="animation-delay:495ms"><tspan class="k">Data</tspan><tspan class="d"> ............. </tspan>Postgres, Kafka, vector search</text>
   <text x="400" y="324.5" class="ln" style="animation-delay:540ms"><tspan class="k">Platform</tspan><tspan class="d"> ......... </tspan>Next.js, Node.js, React Native</text>
-  <text x="400" y="346.5" class="ln" style="animation-delay:585ms"><tspan class="k">Infra</tspan><tspan class="d"> ............ </tspan>Vercel, Supabase, Railway, CI/CD</text>
+  <text x="400" y="346.5" class="ln" style="animation-delay:585ms"><tspan class="k">Infra</tspan><tspan class="d"> ............ </tspan>AWS, Azure, GCP, CI/CD</text>
   <text x="400" y="368.5" class="ln" style="animation-delay:630ms"><tspan class="k">Practice</tspan><tspan class="d"> ......... </tspan>Observability, SLOs, AppSec</text>
   <text x="400" y="390.5" class="ln" style="animation-delay:675ms"><tspan class="k">Leadership</tspan><tspan class="d"> ....... </tspan>Tech strategy, design reviews, 0→1</text>
   
