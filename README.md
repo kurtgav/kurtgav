@@ -1,7 +1,7 @@
 <a href="https://kurtgavin.vercel.app">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kurtgav/kurtgav/main/assets/card-dark.svg">
-    <img alt="Kurt Gavin. CTO at Third Code Solutions Inc., full-stack and AI engineer from the Philippines." src="https://raw.githubusercontent.com/kurtgav/kurtgav/main/assets/card-light.svg" width="100%">
+    <img alt="Kurt Gavin. Founding Engineer and CTO at Third Code Solutions Inc., full-stack software engineer and AI engineer from the Philippines." src="https://raw.githubusercontent.com/kurtgav/kurtgav/main/assets/card-light.svg" width="100%">
   </picture>
 </a>
 

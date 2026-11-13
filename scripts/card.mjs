@@ -34,8 +34,8 @@ const SUN = [
 
 const ABOUT = [
   ["OS", "Philippines · UTC+8"],
-  ["Role", "CTO @ Third Code Solutions Inc."],
-  ["Focus", "Full-stack + AI engineering"],
+  ["Role", ["Founding Engineer/CTO", "@Third Code Solutions Inc."]],
+  ["Focus", ["Full-stack Software Engineer", "+ AI Engineer"]],
   ["Builds", "AI products for global businesses"],
   ["Markets", "APAC, USA, Europe, Middle East"],
   null,
@@ -96,20 +96,23 @@ async function fetchStats() {
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;");
 const n = (x) => x.toLocaleString("en-US");
 const plural = (x, word) => `${n(x)} ${word}${x === 1 ? "" : "s"}`;
-const kv = ([k, v]) => `<tspan class="k">${esc(k)}</tspan><tspan class="d"> ${".".repeat(KEY_W - k.length)} </tspan>${esc(v)}`;
+// One card line per value part; extra parts wrap under the value column.
+const kv = ([k, v]) => [v].flat().map((part, i) => i === 0
+  ? `<tspan class="k">${esc(k)}</tspan><tspan class="d"> ${".".repeat(KEY_W - k.length)} </tspan>${esc(part)}`
+  : `${" ".repeat(KEY_W + 2)}${esc(part)}`);
 const section = (title) => `<tspan class="m">— </tspan><tspan class="k">${title}</tspan><tspan class="m"> ${"─".repeat(RULE - title.length - 3)}</tspan>`;
 
 function render(t, stats, updated) {
   const lines = [
     `<tspan class="a b">kurt</tspan><tspan class="m">@</tspan><tspan class="a b">gavin</tspan>`,
     `<tspan class="m">${"─".repeat(RULE)}</tspan>`,
-    ...ABOUT.map((row) => (row ? kv(row) : "")),
+    ...ABOUT.flatMap((row) => (row ? kv(row) : [""])),
     "",
     section("GitHub"),
-    kv(["Contributions", `${n(stats.contributions)} in the past year`]),
-    kv(["Current streak", plural(stats.current, "day")]),
-    kv(["Longest streak", plural(stats.longest, "day")]),
-    kv(["Public repos", n(stats.repos)]),
+    ...kv(["Contributions", `${n(stats.contributions)} in the past year`]),
+    ...kv(["Current streak", plural(stats.current, "day")]),
+    ...kv(["Longest streak", plural(stats.longest, "day")]),
+    ...kv(["Public repos", n(stats.repos)]),
     "",
     `<tspan class="a">kurt@gavin</tspan><tspan class="m">:~$ </tspan><tspan class="cur">█</tspan>`,
   ];
@@ -120,7 +123,7 @@ function render(t, stats, updated) {
     .map((l, i) => (l ? `<text x="${TEXT_X}" y="${PAD_Y + (i + 0.75) * LH}" class="ln" style="animation-delay:${i * 45}ms">${l}</text>` : ""))
     .join("\n  ");
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="title" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace">
-  <title id="title">Kurt Gavin: CTO at Third Code Solutions, full-stack and AI engineer from the Philippines. ${n(stats.contributions)} contributions in the past year.</title>
+  <title id="title">Kurt Gavin: Founding Engineer and CTO at Third Code Solutions Inc., full-stack software engineer and AI engineer from the Philippines. ${n(stats.contributions)} contributions in the past year.</title>
   <style>
     text { white-space: pre; font-size: ${TEXT_FONT}px; fill: ${t.fg}; }
     .k { fill: ${t.key}; } .d { fill: ${t.dots}; } .m { fill: ${t.muted}; } .a { fill: ${t.key}; } .b { font-weight: 700; }
